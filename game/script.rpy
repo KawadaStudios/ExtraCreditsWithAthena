@@ -475,7 +475,8 @@ label m_pro_TOH:
     show athena angry at Position(xalign=0.3)
     show athena angry_arms at Position(xalign=0.3)
     a "Ugh, Artemis. What do you want?"
-    art "I just wanted to say hi to
+    art "I just wanted to say hi to you, Athena."
+    
         
 
 
