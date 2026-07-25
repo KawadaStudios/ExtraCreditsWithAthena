@@ -1,0 +1,1 @@
+image sprite_poseidon_neutral = "placeholder.png"

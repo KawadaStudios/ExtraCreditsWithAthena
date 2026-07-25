@@ -1,0 +1,10 @@
+image sprite_nike_neutral = "placeholder.png" # Nike's default sprite. All of Nike's sprites are on the left side of the screen (meaning she faces right, like Athena.)
+image sprite_nike_excited = "placeholder.png" # Nike's excited sprite. Her eyes are wide, her mouth open in a smile, and her arms raised in excitement.
+image sprite_nike_annoyed = "placeholder.png" # Nike annoyed, arms crossed, eyes to the side, mouth in a frown.
+image sprite_nike_sick = "placeholder.png" # Nike sick, eyes closed, mouth in a frown. Maybe a slight green tinge to her face?
+image sprite_nike_angry = "placeholder.png" # Nike angry, eyes and brow narrowed down, mouth in a frown. Maybe a slight red tinge to her face?
+image sprite_nike_embarrassed = "placeholder.png" # Embarassed look. 
+image sprite_nike_red = "placeholder.png" # Maybe the embarassed sprite again, but with a pink glow to her cheeks? Perhaps an exclamatioin point above her head too? Her eyes facing at the player (audience)
+image sprite_nike_tired = "placeholder.png" # Nike tired. Her eyes closed, her stance bowed down slight, hands on her forehead and one against her hips. A slight frown as well. 
+image sprite_nike_worried = "placeholder.png" # Nike with a worried expression on her face. 
+image sprite_nike_smug = "placeholder.png" # Nike with a smug expression on her face. Her mouth is a slight smirk. 

@@ -1,0 +1,1 @@
+define flash = Fade(0.25, 0.0, 0.5, color="#fff")
