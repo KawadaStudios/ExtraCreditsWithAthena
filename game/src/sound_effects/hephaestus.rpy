@@ -1,2 +1,2 @@
-# Sound Effects
-define audio.hephaestus_snort = "assets/sfx/hephaestus_snort.ogg"
+﻿# Sound Effects
+define audio.hephaestus_snort = "assets/sfx/hephaestus_snort.ogg" # AUDIO_STATUS ✅

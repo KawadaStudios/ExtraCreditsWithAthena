@@ -1,107 +1,130 @@
 label demo_medusa_introduction:
-    scene bg_black
+    scene black_bg
     play ambience audio.medusa_alarm_1 loop # ?
-    unkown_character "Ugh..." # VA: Groggy, annoyed.
-    unkown_character "Not again..." # VA: Groggy, annoyed, exasperated.
+    voice voice_demo_medusa_introduction_medusa_01
+    unknown_character "Ugh... Not again..." # VA: Groggy, annoyed.
     play sound audio.medusa_bed # ?
     stop ambience fadeout 0.2
-    play sound audio.medusa_sigh_relief
-    unkown_character "There we go..." # VA: Relieved, relaxed.
+    voice voice_demo_medusa_introduction_medusa_02
+    unknown_character "There we go..." # VA: Relieved, relaxed.
     pause 3.0
     play ambience audio.medusa_alarm_2 loop # ?
-    unkown_character "Ugh!" # VA: Groggy, head pain. 
+    voice voice_demo_medusa_introduction_medusa_03
+    unknown_character "Ugh!" # VA: Groggy, head pain. 
     play sound audio.medusa_bed # ?
     stop ambience fadeout 0.2
-    play sound audio.medusa_sigh_relief_2
-    unkown_character "Nice and comfy now..." # VA: Purring, relieved as she settles under the covers for a second time. 
+    voice voice_demo_medusa_introduction_medusa_04
+    unknown_character "Nice and comfy now..." # VA: Purring, relieved as she settles under the covers for a second time. 
     pause 3.0
     play ambience audio.medusa_alarm_3 loop # ?
-    unkown_character "For fuck's sake!" # VA: Angry, furious mood. 
-    unkown_character "I swear on the phallus of Apollo this thing gets louder every day!" # VA: Angry, furious mood. Medusa edges close to the point of losing her temper.
+    voice voice_demo_medusa_introduction_medusa_05
+    unknown_character "For fuck's sake! I swear on the phallus of Apollo this thing gets louder every day!" # VA: Angry, furious mood. 
     pause 2.0
     play sound audio.medusa_bed # ?
     stop ambience fadeout 0.2
     play sound audio.alarm_slam # ?
-    scene cg_medusa_slams_alarm with vpunch
+    scene medusa_slams_alarm_cg with vpunch
     pause 2.0
-    scene bg_black
-    unkown_character "Finally." # VA: Relieved, exasperated. Medusa has finally silenced the alarm clock.
+    scene black_bg
+    voice voice_demo_medusa_introduction_medusa_06
+    unknown_character "Finally." # VA: Relieved, exasperated. Medusa has finally silenced the alarm clock.
     pause 2.0
     play sound audio.medusa_sigh
-    unkown_character "Mondays." # VA: Groggy distaste for "Mondays."
-    unkown_character "The gut punch of the week." # VA: Strong, scornful emphasis on the word "gut punch."
-    unkown_character "And that means..." # VA: Slight, horrible realisation dawning on her.
+    voice voice_demo_medusa_introduction_medusa_07
+    unknown_character "Mondays." # VA: Groggy distaste for "Mondays."
+    voice voice_demo_medusa_introduction_medusa_07b
+    unknown_character "The gut punch of the week." # VA: Strong, scornful emphasis on the word "gut punch."
     pause 2.0
-    scene cg_medusa_bed
-    medusa "Oh no." # VA: Dread. Something horrible is about to happen.
+    voice voice_demo_medusa_introduction_medusa_08
+    unknown_character "And that means..." # VA: Slight, horrible realisation dawning on her.
+    voice voice_demo_medusa_introduction_medusa_08b
+    unknown_character "Oh no." # VA: Dread. Something horrible is about to happen.
+    pause 2.0
+    scene medusa_bed_cg
+    voice voice_demo_medusa_introduction_medusa_09
     medusa "I have to head into divine daycare again." # VA: Dread. She really doesn't want to head there. 
 
-    scene cg_title_kawada_studios_presents
+    scene title_kawada_studios_presents_cg
     pause 2.0
-    scene cg_medusa_teeth_brush
+    scene medusa_teeth_brush_cg
     play sound audio.medusa_teeth_brush # ?
     pause 2.0
-    scene cg_title_collab_potatoes
+    scene title_collab_potatoes_cg
     pause 2.0
-    scene cg_medusa_dressed
+    scene medusa_dressed_cg
     play sound audio.medusa_dressed # ?
     pause 2.0
-    scene cg_title_kimia_kore_novel
+    scene title_kimia_kore_novel_cg
     pause 2.0
-    scene cg_medusa_mirror_neutral
+    scene medusa_mirror_neutral_cg
+    voice voice_demo_medusa_introduction_medusa_10
     medusa "Focus Meddy, focus." # VA: Medusa's nickname is Meddy. She uses it to calm herself down.
-    scene cg_medusa_mirror_happy
+    scene medusa_mirror_happy_cg
+    voice voice_demo_medusa_introduction_medusa_10b
     medusa "You can do this." # VA: She says this to herself, trying to psych herself up for the day ahead.
+    voice voice_demo_medusa_introduction_medusa_10c
     medusa "Today you ace your final exam..." # VA: Continued excitable pysching herself up.
+    voice voice_demo_medusa_introduction_medusa_10d
     medusa "Get the hell out of Olympus University..." # VA: Continued excitable pysching herself up.
+    voice voice_demo_medusa_introduction_medusa_10e
     medusa "And step into the myths for good!" # VA: End of excitable pysching herself up. Medusa is ready to take on the day, and the world. 
-    scene cg_medusa_door_day
+    scene medusa_door_day_cg
     play sound audio.medusa_door_explosion # ?
     with vpunch
-    scene cg_medusa_door_explosion
-    medusa "Cowabunga!" # VA: Triumphant exclamation, even after the door explodes off it's hinges. 
-    scene cg_title_extra with flash
+    scene medusa_door_explosion_cg
+    scene title_extra_cg with flash
     pause 2.0
     play sound audio.medusa_hum_skate loop
-    scene cg_hallway_medusa_skate # Medusa skating through the hallway.
-    scene cg_hallway_medusa_shade # Frontal shot of Medusa trying desperately to look cool, wearing dark shades.
+    scene hallway_medusa_skate_cg # Medusa skating through the hallway.
+    scene hallway_medusa_shade_cg # Frontal shot of Medusa trying desperately to look cool, wearing dark shades.
     pause 2.0
-    scene cg_sphinx_door
+    scene sphinx_door_cg
+    voice voice_demo_medusa_introduction_medusa_11
     medusa "FOUND IT!" # VA: Excited squal of joy. One would even think for a moment that Medusa is happy to be in class.
     stop sound fadeout 0.5
-    scene bg_black
+    scene black_bg
     play sound audio.door_open # ?
     pause 1.0
     play ambience audio.class_talking loop
+    voice voice_demo_medusa_introduction_sphinx_01
     sphinx "Ahem!" # VA: Resounding firm sound. The Sphinx demands, not wants, obedience from her class.
+    voice voice_demo_medusa_introduction_sphinx_02a
     sphinx "Now class, is everyone ready for the exam?" # VA: Continued resounding firm sound.
+    voice voice_demo_medusa_introduction_sphinx_03a
     sphinx "Raise your hand if you are!" # VA: Continued resounding firm sound.
     pause 2.0
+    voice voice_demo_medusa_introduction_sphinx_04a
     sphinx "Good!" # VA: Pleased tone. Everything seems in order. Sphinx is happy with the class' readiness for the exam.
+    voice voice_demo_medusa_introduction_sphinx_05
     sphinx "It seems like everyone is ready, except for..." # VA: She notices something is amiss.
+    voice voice_demo_medusa_introduction_sphinx_06
     sphinx "Medusa, what are you doing?" # VA: Sudden shock. 
-    sphinx "Why do you have a book in your-" # VA: Sudden fear. 
+    voice voice_demo_medusa_introduction_sphinx_07c
+    sphinx "Why do you have a book in your-" # VA: Sudden fear.
     play sound audio.book_throw
+    voice voice_demo_medusa_introduction_medusa_12
     medusa "FASCIST BASTARD!" # VA: Loud, defiant exclamation. Medusa is angry, and she is not afraid to show it.
     stop ambience fadeout 0.2
     pause 2.0
-    scene cg_classroom_sphinx
+    scene classroom_sphinx_cg
+    voice voice_demo_medusa_introduction_sphinx_08
     sphinx "MEDUSA!" # VA: Loud scream of anger. 
+    voice voice_demo_medusa_introduction_sphinx_09a
     sphinx "GET OUT OF MY CLASSROOM!" # VA: Explosive scream of anger.
     pause 1.0
-    scene bg_black
+    scene black_bg
     play sound audio.door_close # ?
     pause 1.0
     play sound audio.medusa_hallway_footsteps # ?
     pause 1.0
     play ambience audio.zeus_hum loop # VA: Zeus is humming to himself, heads in the cloud, oblivious to the world around him.
-    unkown_character "*Humming to himself*"
+    unknown_character "*Humming to himself*"
     pause 2.0
     play sound audio.zeus_door_open # ?
     stop ambience fadeout 0.2
-    scene cg_zeus_door_neutral
-    scene cg_zeus_door_frown
+    scene zeus_door_neutral_cg
+    scene zeus_door_frown_cg
     play sound audio.zeus_sigh
-    scene cg_medusa_office
-    scene bg_black with Dissolve(3.0)
+    scene medusa_office_cg
+    scene black_bg with Dissolve(3.0)
     return

@@ -1,1 +1,1 @@
-image sprite_poseidon_neutral = "placeholder.png"
+image poseidon_neutral = "placeholder.png"

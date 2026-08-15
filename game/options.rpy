@@ -184,6 +184,13 @@ init python:
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
 
+    # Demo-only packaging guard.
+    # Uncomment these lines when creating a demo build to exclude Chapter 2.
+    # build.classify('game/src/scripts/chapter_2/**', None)
+    # build.classify('game/src/chapter_2/**', None)
+    # build.classify('game/images/chapter_2/**', None)
+    # build.classify('game/assets/voice/chapter_2/**', None)
+
     ## To archive files, classify them as 'archive'.
 
     # build.classify('game/**.png', 'archive')

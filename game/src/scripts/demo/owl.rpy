@@ -1,17 +1,17 @@
 label demo_owl:
-    scene bg_black
+    scene black_bg
     play sound audio.footsteps
-    scene bg_owl_house_door with fade #
-    show sprite_athena_robes_neutral at Position(xalign=0.3)
-    show sprite_medusa_neutral at Position(xalign=0.5)
+    scene owl_house_door_bg with fade #
+    show athena_robes_neutral at Position(xalign=0.3)
+    show medusa_neutral at Position(xalign=0.5)
     medusa "I've never been in here before." # VA: Cautious wonder.
     play sound audio.keys_jingle
     athena "I know." # VA: Neutral tone.
     athena "You told me that like, ten thousand times already." # VA: Neutral, but with a hint of impatience.
     play sound audio.keys_jingle2
-    show sprite_athena_robes_annoyed at Position(xalign=0.3)
+    show athena_robes_annoyed at Position(xalign=0.3)
     athena "s?at?!" # VA: Frustrated swear at the jammed door.
-    show sprite_medusa_confused at Position(xalign=0.5)
+    show medusa_confused at Position(xalign=0.5)
     medusa "Something wrong?" # VA: Concerned check-in.
     athena "No, it's just..." # VA: Slightly embarrassed hesitation. Athena isn't used to asking for help - she's often the one who gives out help to others. 
     athena "I need someone to help me open the door." # VA: Shy, awkward request. Help isn't something Athena is used to asking for, and she doesn't know how to do it.
@@ -19,110 +19,110 @@ label demo_owl:
     medusa "I wanted to shy away at first when I heard that." # Medusa begins to pull away. Beginning of internal monologue, conflicted.
     medusa "Not because I didn't want to help Athena." # VA: Internal monologue, conflicted. Her mind is beginning to race with worst-case scenarios.
     medusa "But because I was afraid of what might happen if I did." # VA: Internal monologue, anxious vulnerability. We start to see what Medusa's fears are.
-    scene bg_black with fade
+    scene black_bg with fade
     pause 2.0
-    scene cg_owl_house_door_medusa with dissolve
+    scene owl_house_door_medusa_cg with dissolve
     medusa "I thought it might be a trap." # VA: Internal monologue, fearful.
     medusa "It had happened before." # VA: Internal monologue, bitter memory.
     medusa "I thought Athena would push me inside and lock me in there with the owls." # VA: Internal monologue, spiraling worst-case fear. She's catostrophizing hard.
-    scene cg_owl_house_door_artemis with fade
+    scene owl_house_door_artemis_cg with fade
     medusa "And then Artemis would appear, and join in on the fun by laughing at me." # VA: Internal monologue, dread mixed with resentment.
-    play audio "assets/sfx/artemis_laugh.ogg"
+    play sound audio.artemis_laugh
     medusa "That would be the end of me." # VA: Internal monologue, dramatic dread.
     medusa "Pecked to death by owls, hawks and whatever else was in here." # VA: Internal monologue, darkly vivid fear.
     medusa "All because I put my trust in Athena." # VA: Internal monologue, wounded caution.
-    scene bg_owl_house_door
-    show sprite_athena_robes_angry at Position(xalign=0.3)
-    show sprite_medusa_sad at Position(xalign=0.5)
+    scene owl_house_door_bg
+    show athena_robes_angry at Position(xalign=0.3)
+    show medusa_sad at Position(xalign=0.5)
     athena "MEDUSA!" # VA: Sharp snap to break Medusa out of her sprialing mind.
     medusa "..." # VA: Blank beat, caught off-guard.
-    show sprite_medusa_confused at Position(xalign=0.5)
+    show medusa_confused at Position(xalign=0.5)
     medusa "What?" # VA: Confused, defensive. She doens't know how much time she's spent spiraling in her own head. 
-    show sprite_athena_robes_annoyed at Position(xalign=0.3)
+    show athena_robes_annoyed at Position(xalign=0.3)
     athena "...The door?" # VA: Pointed reminder, trying to stay patient with her priestess.
-    show sprite_medusa_nervous at Position(xalign=0.5)
+    show medusa_nervous at Position(xalign=0.5)
     medusa "Oh, right." # VA: Sheepish, quick recovery.
     medusa "The door." # VA: Quick self-correction.
-    show sprite_athena_robes_neutral at Position(xalign=0.3)
+    show athena_robes_neutral at Position(xalign=0.3)
     athena "Are you going to help me with it, or not?" # VA: Firm but not cruel. She can sense Medusa is zoning in and out. 
-    show sprite_medusa_sad at Position(xalign=0.5)
+    show medusa_sad at Position(xalign=0.5)
     medusa "Well..." # VA: Hesitant. Uncertain.
     menu m_owl_door:
         "What do you choose?"
         "Help Athena open the door":
             $ friends += 1
             $ lovers += 1
-            show cg_medusa_helping_athena
+            show medusa_helping_athena_cg
             medusa "Many hands make light work, right?" # VA: Quick attempt at upbeat teamwork after a long period of internal monologue and spiraling.
             athena "Yes, it does." # VA: Encouraging agreement.
             medusa "Alright, on three!" # VA: Rallying energy.
             medusa "One... Two... Three!" # VA: Count with effort and momentum and some slight comedic timing.
-            scene bg_black with fade
+            scene black_bg with fade
             play sound audio.door_open # ?
             play sound audio.footsteps
             pause 1.0
         "Refuse to help Athena":
             $ enemies += 1
             $ rivals += 1
-            show cg_medusa_refusing_athena
+            show medusa_refusing_athena_cg
             medusa "I'm sure you can open it on your own, Athena." # VA: Polite refusal with distance.
             play sound audio.athena_sigh
             athena "Alright, I'll do it myself then." # VA: Controlled disappointment. She isn't happy, but somewhat expecting this from Medusa.
             athena "Remember though, this Goddess-Priestess relationship is a two-way street." # VA: Firm reminder of responsibility.
-            scene bg_black with fade
+            scene black_bg with fade
             play sound audio.door_open # ?
             play sound audio.footsteps
             pause 1.0
     play ambience audio.mews loop # ?
-    show bg_owl_house_interior with fade
-    show sprite_medusa_happy at Position(xalign=0.7) with dissolve
-    show sprite_athena_robes_happy at Position(xalign=0.3) with dissolve
+    show owl_house_interior_bg with fade
+    show medusa_happy at Position(xalign=0.7) with dissolve
+    show athena_robes_happy at Position(xalign=0.3) with dissolve
     medusa "Wow..." # VA: Breathless awe.
     athena "Welcome to the Owl House, Medusa!" # VA: Warm, inviting pride. This is a place Athena is proud of, and she wants to share it with her priestess.
     medusa "Athena, this place is amazing!" # VA: Genuine excitement.
     athena "I know, right?" # VA: Pleased that Medusa sees how great it is.
     athena "It's like my own little pond." # VA: Soft personal admission.
-    show sprite_medusa_eyebrow at Position(xalign=0.7)
+    show medusa_eyebrow at Position(xalign=0.7)
     medusa "Your own little pond?" # VA: Slightly curious. Beginning of a heartfelt conversation.
     pause 2.0
-    show sprite_athena_robes_neutral at Position(xalign=0.3)
+    show athena_robes_neutral at Position(xalign=0.3)
     athena "Well, yeah..." # VA: Slightly shy opening up. # She isn't used to baring her soul like this to someone else.
     athena "I come here at times..." # VA: Reflective, gentle.
     athena "When everything is just too much for me to handle." # VA: Honest vulnerability.
     athena "When I just want to be alone with my thoughts." # VA: Quiet and introspective. Not unlike Medusa with her pond. 
     athena "And with my owls." # VA: Fond warmth. Not unlike Medusa with her snakes.
-    show sprite_medusa_surprised at Position(xalign=0.7)
+    show medusa_surprised at Position(xalign=0.7)
     medusa "Wait, all the owls here are yours?" # VA: Surprised curiosity, incredulous.
     pause 2.0
-    show sprite_athena_robes_neutral at Position(xalign=0.3) # Athena's made a mistake. She doesn't make too many mistakes.
+    show athena_robes_neutral at Position(xalign=0.3) # Athena's made a mistake. She doesn't make too many mistakes.
     athena "No, just the one." # VA: Casual correction. Athena's made a mistake.
     athena "The rest of them are just...offcuts the Moirai don't know what to do with yet." # VA: Matter-of-fact, but a little awkward admission. 
-    show sprite_medusa_happy at Position(xalign=0.7)
+    show medusa_happy at Position(xalign=0.7)
     medusa "So, Pallas Athena has only one furbaby then?" # VA: Playful tease. She's good at getting under the skin of her Goddess. 
-    show sprite_athena_robes_annoyed at Position(xalign=0.3)
+    show athena_robes_annoyed at Position(xalign=0.3)
     play sound audio.athena_sigh
     athena "I hate that term." # VA: Dry annoyance.
     athena "So very much." # VA: Dead serious emphasis.
-    show sprite_athena_robes_neutral at Position(xalign=0.3)
+    show athena_robes_neutral at Position(xalign=0.3)
     athena "But yes, I only have the one." # VA: Resigned confirmation.
-    show sprite_medusa_eyebrow at Position(xalign=0.7)
+    show medusa_eyebrow at Position(xalign=0.7)
     medusa "I see." # VA: Taking it all in. A thoughtful pause, as she processes the information.
     pause 1.0
-    show sprite_medusa_excited at Position(xalign=0.7)
+    show medusa_excited at Position(xalign=0.7)
     medusa "Can I see it?" # VA: Eager ask, quick pivot. 
-    show sprite_athena_robes_annoyed at Position(xalign=0.3)
+    show athena_robes_annoyed at Position(xalign=0.3)
     athena "...What?" # VA: Briefly thrown off by the question. She isn't used to people asking to see her owl.
-    show sprite_medusa_excited at Position(xalign=0.7)
+    show medusa_excited at Position(xalign=0.7)
     medusa "Can I see Ms Athena's furbaby?" # VA: Deliberately teasing repeat, with an emphasis onike "furbaby."
-    show sprite_athena_robes_neutral at Position(xalign=0.3)
+    show athena_robes_neutral at Position(xalign=0.3)
     athena "Only to stop hearing you prattle on about furbabies like a schoolgirl with scabby knees." # VA: Dry comment, but not truly mean.
-    show sprite_medusa_angry at Position(xalign=0.7)
+    show medusa_angry at Position(xalign=0.7)
     medusa "HEY!" # VA: Offended yelp.
-    show sprite_athena_robes_blue_call_minerva at Position(xalign=0.3)
+    show athena_robes_blue_call_minerva at Position(xalign=0.3)
     athena "MINERVA!" # VA: Loud call. Practiced thousands of times down the years. 
-    scene bg_black with fade
+    scene black_bg with fade
     pause 2.0
-    show cg_minerva_owl with fade
+    show minerva_owl_cg with fade
     medusa "Wow, it's so cute!" # VA: Childlike wonder.
     athena "She, not it." # VA: Gentle correction. Athena doesn't like people referring to her owl as "it."
     medusa "Sorry..." # VA: Quick apology.
@@ -147,7 +147,7 @@ label demo_owl:
     pause 2.0
     medusa "...Can I hold her?" # VA: Careful, hopeful ask.
     athena "Sure, be careful though." # VA: Trusting but cautious.
-    scene bg_black with fade
+    scene black_bg with fade
     athena "Here you go." # VA: Gentle handoff.
     play sound audio.ruffled_feathers
     medusa "Oh boy, she's heavy!" # VA: Surprised strain.
@@ -156,7 +156,7 @@ label demo_owl:
     medusa "Yet?" # VA: Alarmed squeak.
     athena "She only tried to nip my eyes out the first time I held her." # VA: Deadpan anecdote.
     medusa "That's not helping, you know." # VA: Nervous complaint.
-    show cg_medusa_holding_owl with fade
+    show medusa_holding_owl_cg with fade
     medusa "Once it became clear to me that Minerva wasn't going to devour me, I relaxed a little bit." # Internal monologue
     medusa "I even let myself stare dreamily into her big, round eyes." # VA: Internal monologue, softened and tender.
     medusa "They were a grey colour." # VA: Internal monologue, lingering observation.

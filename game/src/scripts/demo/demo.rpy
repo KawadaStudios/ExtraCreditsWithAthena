@@ -10,4 +10,5 @@ label demo:
     call demo_checkers
     call demo_end
     call demo_poseidon
+    call demo_credits
     return
