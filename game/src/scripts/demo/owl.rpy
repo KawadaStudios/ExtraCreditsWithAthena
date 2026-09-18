@@ -10,13 +10,13 @@ label demo_owl:
     athena "You told me that like, ten thousand times already." # VA: Neutral, but with a hint of impatience.
     play sound audio.keys_jingle2
     show athena_robes_annoyed at Position(xalign=0.3)
-    athena "s?at?!" # VA: Frustrated swear at the jammed door.
+    athena "Shit!" # VA: Frustrated swear at the jammed door.
     show medusa_confused at Position(xalign=0.5)
     medusa "Something wrong?" # VA: Concerned check-in.
     athena "No, it's just..." # VA: Slightly embarrassed hesitation. Athena isn't used to asking for help - she's often the one who gives out help to others. 
     athena "I need help opening the door." # VA: Shy, awkward request. Help isn't something Athena is used to asking for, and she doesn't know how to do it.
     pause 2.0
-    medusa "I wanted to shy away at first when I heard that." # Medusa begins to pull away. Beginning of internal monologue, conflicted.
+    medusa "I wanted to shy away at first, when I heard that." # Medusa begins to pull away. Beginning of internal monologue, conflicted.
     medusa "Not because I didn't want to help Athena." # VA: Internal monologue, conflicted. Her mind is beginning to race with worst-case scenarios.
     medusa "But because I was afraid of what might happen if I did." # VA: Internal monologue, anxious vulnerability. We start to see what Medusa's fears are.
     scene black_bg with fade
@@ -131,7 +131,7 @@ label demo_owl:
     medusa "Is really cute!" # VA: Bright enthusiasm.
     athena "Minerva is my owl." # VA: Soft pride.
     medusa "You named her after the Roman version of yourself?" # VA: Curious and lightly teasing. The first hint of how much the Gods know about us. 
-    athena "Well, I thought it was a fitting name for her." # VA: Modest, affectionate.
+    athena "Well, I thought it suited her." # VA: Modest, affectionate.
     athena "She's my little Minerva, after all." # VA: Warm tenderness.
     medusa "I thought she would be white instead of brown." # VA: Innocent observation.
     athena "Why? She's a barn owl, Medusa." # VA: Practical correction.
