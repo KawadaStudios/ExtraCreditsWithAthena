@@ -7,5 +7,8 @@ define voice_demo_fencing_2_dionysus_05 = "assets/voice/Dionysus/dionysus_demo_f
 define voice_demo_fencing_2_dionysus_06 = "assets/voice/Dionysus/dionysus_demo_fencing2/demo_fencing2_dionysus_06.ogg"
 define voice_demo_fencing_2_dionysus_07 = "assets/voice/Dionysus/dionysus_demo_fencing2/demo_fencing2_dionysus_07.ogg"
 
+# Nike
+define voice_demo_fencing_2_nike_01 = "assets/voice/Nike/nike_demo_fencing2/demo_fencing_2_nike_01.ogg"
+
 # Hephaestus
 define voice_demo_fencing_2_hephaestus_13 = "assets/voice/Hephaestus/hephaestus_demo_fencing2/demo_fencing2_hephaestus_13.ogg"

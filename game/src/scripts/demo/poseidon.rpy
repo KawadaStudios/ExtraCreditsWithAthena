@@ -19,38 +19,24 @@ label demo_poseidon:
     medusa "Besides her father, everyone else had given up on me." # VA: Internal monologue, hurt memory.
     medusa "Nobody else seemed to acknowledge me on campus..." # VA: Internal monologue, lonely bitterness.
     medusa "Well..." # VA: Internal monologue, tense lead-in.
-    medusa "Except for the person I dreaded seeing most..." # VA: Internal monologue, rising dread.
+    medusa "Except for..." # VA: Internal monologue, rising dread. CHANGE
     scene black_bg with fade
     play sound medusa_hallway_footsteps
     pause 2.0
     show poseidon_neutral at Position(xalign=0.7)
     pause 2.0
     medusa "Poseidon." # VA: Internal monologue, heavy and cold.
-    medusa "Professor Poseidon." # VA: Internal monologue, bitter formality.
-    medusa "Campus legend. Sporting icon. Beloved by everyone." # VA: Internal monologue, resentful list.
+    medusa "Everyone on campus loved him." # VA: Internal monologue, resentful. CHANGE
     pause 2.0
-    medusa "...And someone who I could never shake the feeling was an especially evil son of a bitch, underneath it all." # VA: Internal monologue, disgust and fear.
-    medusa "What's worse, he had his eye on me." # VA: Internal monologue, dread.
-    medusa "I knew that." # VA: Internal monologue, certainty.
+    medusa "...But I didn't." # VA Spiteful. CHANGE
+    medusa "There was something about him that made my skin crawl." # VA: Internal monologue, disgust and fear.
     scene black_bg with Fade(3.0)
-    pause 1.0
-    scene cold_hallway_bg with dissolve
-    show medusa_angry_left at Position(xalign=0.7)
-    show poseidon_neutral at Position(xalign=0.3)
-    medusa "Even while my back was turned, I felt him watching me." # VA: Internal monologue, paranoia grounded in fear.
-    medusa "Like a bloated shark might do when sizing up its prey..." # VA: Internal monologue, vivid contempt.
-    medusa "Wondering if an extra morsel was worth the stomach-ache." # VA: Internal monologue, dark metaphor.
-    pause 1.0
-    scene black_bg with fade
+    pause 3.0
     medusa "I hated that." # VA: Internal monologue, clenched anger.
     medusa "Hated feeling so weak." # VA: Internal monologue, self-directed frustration.
-    medusa "Hated that someone could have so much power over my mind." # VA: Internal monologue, raw and shaken.
-    medusa "Hated." # VA: Internal monologue, pounding emphasis.
-    medusa "Hated." # VA: Internal monologue, repeated fury.
     medusa "Hated it." # VA: Internal monologue, final bitter release.
     show medusa_door_cg with dissolve
     medusa "Even by the time I'd reached my room, I couldn't help but feel he was still waiting." # VA: Internal monologue, lingering fear.
-    medusa "Still pestering." # VA: Internal monologue, exhausted resentment.
     medusa "Ready for any chance to claw his fingertips into my harsh, green skin." # VA: Internal monologue, visceral revulsion.
     scene black_bg with fade
     pause 2.0

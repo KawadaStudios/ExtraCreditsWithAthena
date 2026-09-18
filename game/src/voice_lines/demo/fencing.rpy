@@ -34,6 +34,23 @@ define voice_demo_fencing_hephaestus_10 = "assets/voice/Hephaestus/hephaestus_de
 define voice_demo_fencing_hephaestus_11 = "assets/voice/Hephaestus/hephaestus_demo_fencing/demo_fencing_hephaestus_11.ogg"
 define voice_demo_fencing_hephaestus_12 = "assets/voice/Hephaestus/hephaestus_demo_fencing/demo_fencing_hephaestus_12.ogg"
 
+# Nike
+define voice_demo_fencing_nike_01 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_01.ogg"
+define voice_demo_fencing_nike_02 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_02.ogg"
+define voice_demo_fencing_nike_03 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_03.ogg"
+define voice_demo_fencing_nike_04 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_04.ogg"
+define voice_demo_fencing_nike_05 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_05.ogg"
+define voice_demo_fencing_nike_06 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_06.ogg"
+define voice_demo_fencing_nike_07 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_07.ogg"
+define voice_demo_fencing_nike_08 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_08.ogg"
+define voice_demo_fencing_nike_09 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_09.ogg"
+define voice_demo_fencing_nike_10 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_10.ogg"
+define voice_demo_fencing_nike_11 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_11.ogg"
+define voice_demo_fencing_nike_12 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_12.ogg"
+define voice_demo_fencing_nike_13 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_13.ogg"
+define voice_demo_fencing_nike_14 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_14.ogg"
+define voice_demo_fencing_nike_15 = "assets/voice/Nike/nike_demo_fencing/demo_fencing_nike_15.ogg"
+
 # Zeus
 define voice_demo_fencing_zeus_01 = "assets/voice/Zeus/zeus_demo_fencing/demo_fencing_zeus_01.ogg"
 define voice_demo_fencing_zeus_02 = "assets/voice/Zeus/zeus_demo_fencing/demo_fencing_zeus_02.ogg"

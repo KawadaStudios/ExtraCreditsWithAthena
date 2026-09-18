@@ -36,7 +36,7 @@ label demo_end:
     pause 0.5
     show athena_robes_determined at Position(xalign=0.3)
     athena "I don't have off days, Medusa." # VA: Competitive pride.
-    athena "Poseidon just has a head start-" # VA: Defensive correction.
+    athena "Poseidon just has a head start on-" # VA: Defensive correction.
     medusa "Your uncle." # VA: Playful interruption.
     pause 0.5
     show medusa_smirk at Position(xalign=0.7)
@@ -44,7 +44,7 @@ label demo_end:
     play sound audio.athena_sigh
     pause 1.0
     athena "My uncle, who has a head start-" # VA: Reasserting control, irritated.
-    medusa "I bet you're very happy I didn't call him your daddy." # VA: Smug tease.
+    medusa "I bet you're happy I didn't call him your daddy." # VA: Smug tease.
     show athena_robes_angry at Position(xalign=0.3)
     athena "MY UNCLE!" # VA: Full exasperated shout.
     athena "..." # VA: Recovering breath.
@@ -57,12 +57,12 @@ label demo_end:
     show medusa_eyebrow at Position(xalign=0.7)
     medusa "I see." # VA: Light, unconvinced.
     pause 1.0
-    medusa "I wonder if he sleeps with them, like he does with his fish." # VA: Mischievous rumor-baiting.
+    medusa "I wonder if he sleeps with the board, like he does with his fish." # VA: Mischievous rumor-baiting.
     show athena_robes_annoyed at Position(xalign=0.3)
     play sound audio.athena_ugh
     athena "Please don't say that again." # VA: Immediate disgust.
     athena "That's Artemis' domain." # VA: Dry reprimand.
-    athena "The rumour mill." # VA: Flat, weary.
+    athena "Being a gossip queen." # VA: Flat, weary.
     show medusa_happy at Position(xalign=0.7)
     medusa "Sorry, I just thought it was funny." # VA: Light apology, still amused.
     athena "What I'm trying to say..." # VA: Gathering herself.
@@ -83,12 +83,12 @@ label demo_end:
     pause 1.0
     show athena_robes_neutral at Position(xalign=0.3)
     athena "Same time tomorrow, then?" # VA: Hopeful invitation.
-    athena "You still have whole catalogues of board games to get through, after all." # VA: Light teasing structure.
+    athena "You still have a whole catalogue of board games to get through, after all." # VA: Light teasing structure.
     athena "Scrabble. Snakes and Ladders. Dungeons and Dragons. Monopoly. Dominoes." # VA: Listing with playful momentum.
     medusa "The pizza place?" # VA: Deadpan misunderstanding.
     show athena_robes_sigh at Position(xalign=0.3)
     play sound audio.athena_sigh
-    athena "I'll pretend not to hear that." # VA: Sighing amusement.
+    athena "I'll pretend I didn't just hear that." # VA: Sighing amusement.
     show medusa_sad at Position(xalign=0.7)
     medusa "...Hmm, alright." # VA: Soft agreement.
     show athena_robes_happy at Position(xalign=0.3)
@@ -98,8 +98,8 @@ label demo_end:
     scene black_bg with fade
     pause 1.0
     athena "It was a start." # VA: Reflective internal monologue.
-    athena "Medusa might never be a board game genius like me, but at least she was trying." # VA: Internal monologue, fond realism.
-    athena "She wanted to keep going on." # VA: Internal monologue, soft encouragement.
-    athena "She wanted to get better." # VA: Internal monologue, hopeful.
-    athena "And I was happy for that - at least for the time being." # VA: Internal monologue, cautious optimism.
+    athena "Medusa might never be a board game genius like me, but at least she's trying." # VA: Internal monologue, fond realism.
+    athena "She wants to keep going on." # VA: Internal monologue, soft encouragement.
+    athena "She wants to get better." # VA: Internal monologue, hopeful.
+    athena "And I was happy for that. At least for the time being." # VA: Internal monologue, cautious optimism.
     return

@@ -1,7 +1,7 @@
 label demo_fencing_2:
     scene black_bg
     play sound audio.athena_sigh
-    athena "Please stop calling her all those foul names." # Defensive. Even though she doesn't know Medusa, she doesn't like it when others call her names.
+    athena "Please stop using all that foul language." # Defensive. Even though she doesn't know Medusa, she doesn't like it when others call her names.
     scene fencing_bg
     show athena_fencing_neutral at Position(xalign=0.5)
     show dionysus_fencing_angry at Position(xalign=0.7)
@@ -17,12 +17,12 @@ label demo_fencing_2:
     athena "She just needs a little bit of help, that's all." # VA: Defensive but gentle. Athena is trying to de-escalate.
     show nike_smug at Position(xalign=0.3)
     play sound audio.nike_snort
+    voice voice_demo_fencing_2_nike_01
     nike "Yes, as if giving her every advantage to pass through Medieval Greek wasn't enough on your father's part." # VA: Snide, snorting.
     voice voice_demo_fencing_2_hephaestus_13
     hephaestus "Dictionaries, cheat sheets, having other students do her assignments and essays." # VA: Matter-of-fact pile-on.
     voice voice_demo_fencing_2_dionysus_03
     dionysus "Now since our Rector can't solve the problem, he's decided to shift the burden onto his daughter."
-    show athena_fencing_sad at Position(xalign=0.5)
     pause 2.0
     athena "You're just in a bad mood." # Athena's voice lacks any real conviction.
     voice voice_demo_fencing_2_dionysus_04
@@ -30,13 +30,14 @@ label demo_fencing_2:
     voice voice_demo_fencing_2_dionysus_05
     dionysus "What about your father having to deal with that headache for eight years on his own?"
     pause 1.0
+    show athena_fencing_sad at Position(xalign=0.5)
     athena "..." # VA: Silent beat. Athena bites back a response.
     voice voice_demo_fencing_2_dionysus_06
     dionysus "He always looks so stressed when he's finished dealing with Snakehead!"
     voice voice_demo_fencing_2_dionysus_07
     dionysus "And then a few months ago, Zeus was almost in tears when he caught her scribbling on the walls of the library with a marker!"
     show athena_fencing_neutral at Position(xalign=0.5)
-    athena "Enough." # VA: Flatly. This is the end of the conversation. Athena is tired of hearing the others pile on about Medusa's misdeeds. 
+    athena "Enough." # VA: Flatly. This is the end of the conversation. Athena is tired of hearing the others pile on about Medusa and her misdeeds. 
     athena "I'll see you next week for our next lesson." # VA: Flatly. She wants to get out of this conversation as quickly as possible.
     scene black_bg with fade
     pause 2.0

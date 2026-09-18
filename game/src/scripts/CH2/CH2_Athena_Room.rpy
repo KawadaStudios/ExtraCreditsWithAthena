@@ -20,7 +20,6 @@ label Ch2_Athena_Room:
     show athena_robes_angry at Position(xalign=0.3) with dissolve
     athena "So, what can I do to kill Chronos before Chronos kills me?" # VA: Dark humor masking stress.
     menu athena_bedroom_choices:
-        "What do you do?":
         "Spend time on the Internet":
             $ friends += 1
             $ enemies += 1
@@ -94,11 +93,11 @@ label Ch2_Athena_Room:
             athena "How long has it been?" # VA: Reflective, intimate musing.
             athena "Months now?" # VA: Realization of time passed.
             athena "By the Moirai, helping others with their homework takes up so much time!" # VA: Soft lament.
-            scene black with fade 3.0
+            scene black with fade
             play sound drawer_open_close
             show vibrator
             athena "Found it!" 
-            scene black_bg with fade 3.0
+            scene black_bg with fade
             play sound vibrator loop
             athena "..." # VA: Brief moan of pleasure.
             athena "Oh, gods..." # VA: Quiet, intimate pleasure.
@@ -123,7 +122,7 @@ label Ch2_Athena_Room:
             athena "..."
             athena "Or being with, well..."
             athena "any kind of man at all."
-            stop sound vibrator
+            stop sound
             show athena_bed with fade
             athena "The thought was there in my mind..."
             athena "And I knew in all the wisdom of my heart that it was true."

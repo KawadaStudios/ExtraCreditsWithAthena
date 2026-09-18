@@ -1,4 +1,8 @@
 ﻿# Ambience and crowds
+init:
+    $ renpy.music.register_channel("group_sfx", mixer="sfx", loop=False, stop_on_mute=True, tight=True)
+    $ renpy.music.register_channel("wait_sfx", mixer="sfx", loop=False, stop_on_mute=True, tight=True)
+
 define audio.class_talking = "assets/sfx/class_talking.ogg" # AUDIO_STATUS ❌
 define audio.crowd_boo = "assets/sfx/crowd_boo.ogg" # AUDIO_STATUS ✅
 define audio.crowd_cheer = "assets/sfx/crowd_cheer.ogg" # AUDIO_STATUS ✅

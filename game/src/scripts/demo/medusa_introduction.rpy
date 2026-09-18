@@ -1,39 +1,42 @@
 label demo_medusa_introduction:
     scene black_bg
-    play ambience audio.medusa_alarm_1 loop # ?
+    call ambience(audio.medusa_alarm_1) # ?
+    pause 5.0
     voice voice_demo_medusa_introduction_medusa_01
     unknown_character "Ugh... Not again..." # VA: Groggy, annoyed.
-    play sound audio.medusa_bed # ?
+    call wait_sfx(audio.medusa_bed) # ?
+    pause 5.0
     stop ambience fadeout 0.2
     voice voice_demo_medusa_introduction_medusa_02
     unknown_character "There we go..." # VA: Relieved, relaxed.
     pause 3.0
-    play ambience audio.medusa_alarm_2 loop # ?
+    call ambience(audio.medusa_alarm_2) # ?
+    pause 3.0
     voice voice_demo_medusa_introduction_medusa_03
     unknown_character "Ugh!" # VA: Groggy, head pain. 
-    play sound audio.medusa_bed # ?
+    call wait_sfx(audio.medusa_bed) # ?
     stop ambience fadeout 0.2
+    pause 3.0
     voice voice_demo_medusa_introduction_medusa_04
     unknown_character "Nice and comfy now..." # VA: Purring, relieved as she settles under the covers for a second time. 
     pause 3.0
-    play ambience audio.medusa_alarm_3 loop # ?
+    call ambience(audio.medusa_alarm_3) # ?
+    pause 3.0
     voice voice_demo_medusa_introduction_medusa_05
     unknown_character "For fuck's sake! I swear on the phallus of Apollo this thing gets louder every day!" # VA: Angry, furious mood. 
-    pause 2.0
-    play sound audio.medusa_bed # ?
+    pause 3.0
     stop ambience fadeout 0.2
-    play sound audio.alarm_slam # ?
+    play wait_sfx(audio.alarm_slam) # ?
     scene medusa_slams_alarm_cg with vpunch
     pause 2.0
     scene black_bg
     voice voice_demo_medusa_introduction_medusa_06
     unknown_character "Finally." # VA: Relieved, exasperated. Medusa has finally silenced the alarm clock.
     pause 2.0
-    play sound audio.medusa_sigh
+    play wait_sfx(audio.medusa_sigh) # ?
+    pause 2.0
     voice voice_demo_medusa_introduction_medusa_07
     unknown_character "Mondays." # VA: Groggy distaste for "Mondays."
-    voice voice_demo_medusa_introduction_medusa_07b
-    unknown_character "The gut punch of the week." # VA: Strong, scornful emphasis on the word "gut punch."
     pause 2.0
     voice voice_demo_medusa_introduction_medusa_08
     unknown_character "And that means..." # VA: Slight, horrible realisation dawning on her.
@@ -47,7 +50,7 @@ label demo_medusa_introduction:
     scene title_kawada_studios_presents_cg
     pause 2.0
     scene medusa_teeth_brush_cg
-    play sound audio.medusa_teeth_brush # ?
+    play wait_sfx(audio.medusa_teeth_brush) # ?
     pause 2.0
     scene title_collab_potatoes_cg
     pause 2.0

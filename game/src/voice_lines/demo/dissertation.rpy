@@ -2,8 +2,15 @@
 define voice_demo_dissertation_dionysus_01 = "assets/voice/Dionysus/dionysus_demo_dissertation/demo_dissertation_dionysus_01.ogg"
 define voice_demo_dissertation_dionysus_02 = "assets/voice/Dionysus/dionysus_demo_dissertation/demo_dissertation_dionysus_02_drunk.ogg"
 
+# Nike
+define voice_demo_dissertation_nike_01 = "assets/voice/Nike/nike_demo_dissertation/demo_dissertation_nike_01.ogg"
+
 # Hephaestus
 define voice_demo_dissertation_hephaestus_01 = "assets/voice/Hephaestus/hephaestus_demo_dissertation/demo_dissertation_hephaestus_01.ogg"
+
+# Ahura Mazda
+define voice_demo_dissertation_ahura_01 = "assets/voice/Ahura Mazda/ahura_demo_dissertation/demo_dissertation_ahura_01.ogg"
+define voice_demo_dissertation_ahura_02 = "assets/voice/Ahura Mazda/ahura_demo_dissertation/demo_dissertation_ahura_02.ogg"
 
 # Zeus
 define voice_demo_dissertation_zeus_01 = "assets/voice/Zeus/zeus_demo_dissertation/demo_dissertation_zeus_01.ogg"

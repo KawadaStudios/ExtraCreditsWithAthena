@@ -25,9 +25,9 @@ label demo_checkers:
     athena "I didn't even understand how serpentine hair worked." # VA: Internal monologue, fascinated confusion.
     athena "Did each one have a strange, stifling mind of its own..." # VA: Internal monologue, speculative thought.
     athena "Pulling Medusa in so many different directions in life?" # VA: Internal monologue, analytical and empathetic.
-    athena "Maybe it was why she couldn't sit still in class." # VA: Internal monologue, reflective theory.
+    athena "Maybe that's why she couldn't sit still in class." # VA: Internal monologue, reflective theory.
     athena "Or why, as my father had said, she'd started so many electives and never finished them." # VA: Internal monologue, piecing things together.
-    athena "Perhaps." # VA: Internal monologue, tentative conclusion.
+    athena "Perhaps-" # VA: Internal monologue, tentative conclusion.
     medusa "YOUR MOVE!" # VA: Loud interruption, snapping Athena back.
     show checkers_athena_look_down_cg
     athena "Huh?" # VA: Startled break from thought.
@@ -38,7 +38,7 @@ label demo_checkers:
     scene checkers_athena_win_cg
     athena "I win!" # VA: Triumphant burst.
     play sound audio.medusa_grunt
-    medusa "Not fair." # VA: Sulky complaint.
+    medusa "So not fair." # VA: Sulky complaint.
     athena "Athena 1, Medusa 0." # VA: Cheerful scorekeeping.
     scene black_bg with fade
     pause 1.0
